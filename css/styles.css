@@ -1,0 +1,37 @@
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+header, main {
+    width: 85%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+header, main, table {
+    margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+thead {
+  text-align: left;
+  padding-bottom: 1.2em;
+  background-color: paleturquoise;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  padding: .4em;
+}
+
+.plus, .minus {
+  margin: 5px;
+}
